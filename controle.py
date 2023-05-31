@@ -15,7 +15,7 @@ def funcao_principal():
 
 cursor = banco.cursor()
 comando_SQL = "INSERT INTO projetoUni9 (codigo,descricao,valor) VALUES (%s,%s,%s)"
-dados = ()
+dados = (str(linha1),str(linha2),str(linha3)
 cursor.execute(comando_SQL,dados)
 banco.commit()
 
