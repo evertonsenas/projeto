@@ -2,7 +2,7 @@ from PyQt5 import uic,QtWidgets
 import mysql.connector
 
 banco = mysql.connector.connect(
-    host = "containers-us-west-77.railway.app",
+    host = "containers-us-west-77.railway.app:6378",
     user = "root",
     password = "ikY4StCt5iaPbEwF97MJ",
     database = "railway"
